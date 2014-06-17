@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 typedef struct Node {
     char content;
@@ -24,6 +25,8 @@ typedef struct Node {
 
 void printlist(Node * next_node);
 Node * insert(Node *, Node *);
+Node * extra_credit_1(Node*, Node*);
+int extra_credit_2(Node*, Node*);
 
 #endif	/* MAIN_H */
 
